@@ -156,7 +156,7 @@ def getReplayFile(replay_id):
     # print(replay_json)
     cw = open('replay_data_' + replay_id + '.csv', 'w+')
     # cw = csv.writer(csv_file)
-    header = "Date,Time,Venue,Teams,Results,Outcome," \
+    header = "Date,Time,Venue,Teams,Results,Outcome,Players,Points," \
              "shots,shots_against,goals,goals_against,saves,assists,score,mvp,shooting_precentage,demos_inflicted,demos_taken," \
              "Boost/Min,bcpm,avg_amount,amount_collected,amount_stolen,amount_collected_big,amount_stolen_big," \
              "amount_collected_small,amount_stolen_small,count_collected_big,count_stolen_big,count_collected_small," \
